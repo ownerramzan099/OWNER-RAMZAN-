@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         var { threadID, messageID } = event;
         if (event.body.indexOf("welcome")==0 || event.body.indexOf("WELCOME")==0 || event.body.indexOf("Welcome")==0 || event.body.indexOf("स्वागत")==0) {
                 var msg = {
-                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 \n__________________________________\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n__________________________________ ",
+                                body: "=𒁍 ⃝𝐎𝐖𝐍𝐄𝐑 ⸙𓆩𝐇𝐀𝐍𝐙𝐔𓆪 𓆣 »❯ \n__________________________________\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n__________________________________ ",
                                 attachment: fs.createReadStream(__dirname + `/noprefix/d08cfbbacd25670c448ac105504c840c.gif`)
                         }
                         api.sendMessage(msg, threadID, messageID);
